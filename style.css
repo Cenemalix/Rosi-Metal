@@ -1,0 +1,166 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+#logo {
+    font-family: 'Rammetto One', cursive;
+    color: rgb(255, 255, 255);
+}
+
+#first-line {
+    color: white;
+}
+
+#carousel {
+    background-color: rgb(52, 165, 52);
+}
+
+#central-text {
+    margin-top: 50px;
+    margin-left: 8px;
+    line-height: 50px;
+    font-family: 'Courier New', Courier, monospace;
+    color: rgb(239, 248, 239);
+}
+
+#carouselExampleIndicators {
+    margin-top: 180px;
+}
+
+h5 {
+    color: white;
+}
+
+.button {
+    text-decoration: none;
+    font-size: 17px;
+    color: rgb(255, 255, 255);
+    padding: 3px 15px;
+    border: 3px solid rgb(255, 255, 255);
+    position: relative;
+    background-color: inherit;
+    ;
+}
+
+.button::before,
+.button::after {
+    content: "";
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    border: inherit;
+    transition: all .5s;
+}
+
+.button::before {
+    top: -15px;
+    left: -15px;
+    border-width: 3px 0 0 3px;
+}
+
+.button::after {
+    bottom: -15px;
+    right: -15px;
+    border-width: 0 3px 3px 0;
+}
+
+.button:hover::before,
+.button:hover::after {
+    width: calc(100% + 27px);
+    height: calc(100% + 27px);
+}
+
+
+img {
+    user-select: none;
+}
+
+.h3,
+.h6 {
+    color: rgb(8, 121, 8);
+    text-align: center;
+    user-select: none;
+}
+
+#li {
+    list-style: none;
+    color: white;
+}
+
+iframe {
+    filter: invert(100%);
+    margin-top: 50px;
+}
+
+#li-1 {
+    list-style: none;
+}
+
+#number:link {
+    text-decoration: none;
+    font-size: 18px;
+    padding: 5px 5px;
+    color: white;
+    transition: all .7s;
+}
+
+#number:visited {
+    text-decoration: none;
+}
+
+#number:hover {
+    border: 3px solid rgb(8, 10, 114);
+    border-radius: 10px;
+    animation: pulsate 1s ease-in-out;
+}
+
+#number:active {
+    text-decoration: none;
+    animation: pulsate 1s ease-in-out;
+}
+
+@keyframes pulsate {
+    0% {
+        box-shadow: 0 0 20px, 0 0 40px;
+    }
+}
+
+#ids {
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.19),
+        0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    width: 95%;
+}
+
+#cards {
+    width: 100%;
+}
+
+
+#ul {
+    align-self: center;
+    text-decoration: none;
+    font-size: 18px;
+    box-shadow: 20px;
+    line-height: 80px;
+}
+
+#otkup {
+    color: white;
+    margin-top: 50px;
+}
+
+#o-nama {
+    color: lightgrey;
+    font-size: 1.1em;
+    font-weight: 100;
+}
+
+#o-nama-name {
+    font-weight: 600;
+}
+
+footer {
+    background-color: rgb(49, 49, 49);
+}
